@@ -1,0 +1,103 @@
+{
+  "title": "前端学习汇总",
+  "description": "前端学习资料与笔记汇总",
+  "author": "QiangMin",
+  "output.name": "site",
+  "language": "zh-hans",
+  "gitbook": "3.2.3",
+  "root": ".",
+  "structure": {
+    "readme": "README.md"
+  },
+  "links": {
+    "sidebar": {
+      "Home" : "https://github.com/QiangMin/collect-notes"
+    }
+  },
+  "plugins": [
+    "github@^2.0.0",
+    "github-buttons",
+    "-lunr",
+    "-search",
+    "search-plus",
+    "splitter",
+    "tbfed-pagefooter",
+    "anchors",
+    "anchor-navigation-ex",
+    "edit-link",
+    "-sharing",
+    "sharing-plus",
+    "favicon",
+    "expandable-chapters"
+
+
+
+  ],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/QiangMin/collect-notes"
+    },
+    "github-buttons": {
+      "buttons": [{
+        "user": "QiangMin",
+        "repo": "collect-notes",
+        "type": "star",
+        "size": "samll"
+      }]
+    },
+    "theme-default": {
+      "showLevel": true,
+      "showLevelIcon": true
+    },
+    "tbfed-pagefooter": {
+      "copyright":"Copyright @QiangMin 2019",
+      "modify_label": "该文件修订时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "expandable-chapters":{},
+    "edit-link": {
+      "base": "https://github.com/QiangMin/collect-notes",
+      "label": "Edit This Page"
+    },
+    "favicon":{
+      "shortcut":"favicon.ico",
+      "bookmark":"favicon.ico"
+    },
+    "anchor-navigation-ex": {
+      "associatedWithSummary":true,
+      "showLevel":false,
+      "float": {
+        "floatIcon": "fa fa-navicon",
+        "showLevelIcon": false,
+        "level1Icon": "fa fa-hand-o-right",
+        "level2Icon": "fa fa-hand-o-right",
+        "level3Icon": "fa fa-hand-o-right"
+      }
+    },
+    "sharing": {
+      "douban": false,
+      "facebook": false,
+      "google": true,
+      "hatenaBookmark": false,
+      "instapaper": false,
+      "line": false,
+      "linkedin": true,
+      "messenger": false,
+      "pocket": false,
+      "qq": false,
+      "qzone": false,
+      "stumbleupon": false,
+      "twitter": false,
+      "viber": false,
+      "vk": false,
+      "weibo": true,
+      "whatsapp": false,
+      "all": [
+        "facebook", "google", "twitter",
+        "weibo", "instapaper", "linkedin",
+        "pocket", "stumbleupon"
+      ]
+    }
+
+  }
+}

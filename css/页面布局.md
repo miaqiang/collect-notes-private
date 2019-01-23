@@ -1,0 +1,186 @@
+# 页面布局
+
+## 一、问题
+
+ 题目:假设高度已知，请写出三栏布局，其中左栏、右栏宽度各为300px，中间自适应
+
+
+提醒：
+> 
+1. float布局
+2. 绝对定位
+3. flexbox
+4. 表格布局
+5. 网格布局
+
+## 二、回答
+
+代码结构,以float为例
+```
+<style>
+	*{
+		margin:0;
+		padding:0;
+	}
+	.layout{
+		margin-top:20px;
+	}
+	.layout article>div{
+		min-height:100px;
+	}
+</style>
+<section class="layout float">
+	<article class="left-center-right">
+		<div class="left"></div>
+		<div class="center">
+			<h2>浮动解决方案</h2>
+			<p>这是三栏布局中间部分</p>
+			<p>这是三栏布局中间部分</p>
+		</div>
+		<div class="right"></div>
+	</article>
+</section>
+
+```
+
+### 1.float布局
+
+```
+左  width:300px;float:left;background:red;
+
+中  background:yellow;
+
+右  width:300px;float:right;background:blue;
+
+```
+
+### 2.绝对定位
+
+```
+左中右都设置  position:absolute;
+
+左  width:300px;left:0;background:red;
+
+中  left:300px;right:300px;background:yellow;
+
+右  width:300px;right:0;background:blue;
+```
+
+### 3.flex-box
+
+```
+左中右父类设置  display:flex;
+
+左  width:300px;
+
+中  flex:1;(重点)
+
+右  width:300px;
+
+```
+
+### 4.表格布局
+
+```
+左中右父类设置  display:table;width:100%;
+
+左中右都设置  display:table-cell;
+
+左  width:300px;background:red;
+
+中  background:yellow;
+
+右  width:300px;background:blue;
+
+```
+
+### 5.网格布局
+
+```
+左中右父类设置   display:grid;
+				width:100%;
+				grid-template-rows:100px;
+				grid-template-columns:300px auto 300px;(重点)
+
+左  background:red;
+
+中  background：yellow；
+
+右  background:blue;
+
+```
+
+## 三、延伸与小结
+
+### 1.延伸
+
+ 1）. 这五种方案各有什么优缺点？
+
+ ```
+ float:
+ 缺点：清除浮动，浮动以后会脱离文档里流，处理不当会带来很多问题，本身有一定的局限性；
+ 优点：兼容性比较好，需要处理好周围元素的关系。
+
+ 绝对定位:
+ 缺点：布局脱离了文档流，意味着下面所有子元素也必须脱离文档流，导致可使用性比较差。
+ 优点：快捷，方便，配合js使用不容易出问题。
+
+ flex布局：
+ 缺点：IE8不支持flex
+ 优点:比较完美的方案，解决了上面两个方案的不足。
+
+ 表格布局：
+ 缺点：历史诟病，当某一个单元格的高度超出之后，两侧的单元格也是要调整高度的；
+ 	  有时候的场景是不需要同时增高的
+ 优点：轻易做到，兼容性好。
+
+ 网格布局:
+ 缺点：兼容性问题
+ 优点：可以作很多复杂的事情，简化代码量。
+ ```
+
+ 2）. 如果把假设高度去掉，考虑纵向，左右内容撑高了，中间也需要撑高，哪些能使用，哪些不能使用？
+
+ ```
+ flex和表格布局是可以通用的；
+
+ float：为什么中间左右内容都超出来了？
+
+ float的基本原理：它的内容像左浮动的时候，被左侧的块挡住了，
+ 所以它的文案在左边块的右边排的，当内容超出之后，它发现左侧没有遮挡物，
+ 也就没有了float元素，就会向左排；若不想让中间超出部分转到左边，创建BFC
+ ```
+
+  3）. 这五种方案的兼容性如何，业务中选出最优的方案？
+
+```
+
+没有绝对的最优方案，需要根据业务需要来定
+```
+
+### 2.小结
+
+>
+1. 语义化要到位
+2. 页面布局理解深刻
+3. css基础知识扎实
+4. 思维灵活且积极上进
+5. 代码书写规范
+
+### 3.布局变通思考
+
+>
+1. 三栏布局
+	左右宽度固定，中间自适应
+	上下高度固定，中间自适应
+2. 两栏布局
+	左宽度固定，右自适应
+	右宽度固定，左自适应
+	山高度固定，下自适应
+	下高度固定，上自适应
+
+## 四、思考
+
+	1. 如果五种方案，都不设置高度，会是什么样？
+
+	2. BFC是什么
