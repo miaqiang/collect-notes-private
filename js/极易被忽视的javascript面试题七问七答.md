@@ -175,7 +175,7 @@ new (Foo.getname)();
 
 ##### 2、若有返回值则检查其返回值是否为引用类型。如果是非引用类型，如基本l类型（string，number，boolean，null，undefined）则与无返回值相同，实际返回其实例化对象。
 
-```
+```js
 > function F(){return true;}
 < undefined
 > new F()

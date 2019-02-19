@@ -46,8 +46,7 @@
       }]
     },
     "theme-default": {
-      "showLevel": true,
-      "showLevelIcon": true
+      "showLevel": true
     },
     "tbfed-pagefooter": {
       "copyright":"Copyright @QiangMin 2019",
@@ -59,20 +58,9 @@
       "base": "https://github.com/QiangMin/collect-notes",
       "label": "Edit This Page"
     },
-    "favicon":{
-      "shortcut":"favicon.ico",
-      "bookmark":"favicon.ico"
-    },
     "anchor-navigation-ex": {
       "associatedWithSummary":true,
-      "showLevel":false,
-      "float": {
-        "floatIcon": "fa fa-navicon",
-        "showLevelIcon": false,
-        "level1Icon": "fa fa-hand-o-right",
-        "level2Icon": "fa fa-hand-o-right",
-        "level3Icon": "fa fa-hand-o-right"
-      }
+      "showLevel":false
     },
     "sharing": {
       "douban": false,
@@ -97,6 +85,10 @@
         "weibo", "instapaper", "linkedin",
         "pocket", "stumbleupon"
       ]
+    },
+    "favicon":{
+      "shortcut":"favicon.ico",
+      "bookmark":"favicon.ico"
     }
 
   }
