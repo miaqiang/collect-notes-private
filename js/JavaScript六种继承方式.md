@@ -10,7 +10,7 @@
 ### 参考网址
 
 - [JavaScript六种继承方式](https://xxxgitone.github.io/2017/06/12/JavaScript%E5%85%AD%E7%A7%8D%E7%BB%A7%E6%89%BF%E6%96%B9%E5%BC%8F/)
-- [layout](../layout.html)
+- [JavaScript继承方式详解](https://segmentfault.com/a/1190000002440502)
 
 
 > 继承是面向对象编程中又一非常重要的概念，JavaScript支持实现继承，不支持接口继承，实现继承主要依靠原型链来实现的
