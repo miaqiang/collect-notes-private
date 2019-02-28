@@ -26,7 +26,7 @@
   * [事件循环](js/事件循环.md)
   * [基本类型，判断方法](js/基本类型，判断方法.md)
   * [12种不宜使用的JavaScript语法](js/12种不宜使用的JavaScript语法.md)
-  * [VO AO](js/VO AO.md)
+  * [VO AO](js/VOAO.md)
   * [执行上下文](js/执行上下文.md)
   * [Json对象与Json字符串互转](js/Json对象与Json字符串互转.md)
   * [JavaScript中函数声明优先于变量声明](js/JavaScript中函数声明优先于变量声明.md)
@@ -53,7 +53,7 @@
   * [常见的兼容性问题](css/常见的兼容性问题.md)
   * [清除与浮动](css/清除与浮动.md)
   * [什么是FOUC(无样式内容闪烁)](css/什么是FOUC(无样式内容闪烁).md)
-  * [position的值，relative和absolute分别是相对于谁进行定位的？](css/position的值，relative和absolute
+  * [position的值，relative和absolute分别是相对于谁进行定位的？](css/position的值，relative和absolute分别是相对于谁进行定位的？)
   * [移动端性能优化](css/移动端性能优化.md)
   * [css面试题](css/css面试题.md)
   * [css面试题2](css/css面试题2.md)
@@ -91,7 +91,7 @@
   * [谈谈对前端界面工程师这个职位是怎么样的理解的？它的前景会怎么样](html/谈谈对前端界面工程师这个职位是怎么样的理解的？它的前景会怎么样.md)
   * [一些开放性题目](html/一些开放性题目.md)
   * [渐进增强和优雅降级](html/渐进增强和优雅降级.md)
-  * [web worker和webSocket](html/web worker和webSocket.md)
+  * [web worker和webSocket](html/webworker和webSocket.md)
 
 * [常用代码](code/README.md)
 
@@ -102,7 +102,7 @@
 
   * [面试地址](interview/面试地址.md)
   * [面试须知](interview/面试须知.md)
-  * [2017-6-26 公司面试题](interview/2017-6-26 公司面试题.md)
+  * [2017-6-26 公司面试题](interview/2017-6-26公司面试题.md)
   * [2016-360篇 公司面试题](interview/2016-360篇.md)
   * [2016-嘀嘀打车](interview/2016-嘀嘀打车.md)
   * [2016-网易互联网](interview/2016-网易互联网.md)
