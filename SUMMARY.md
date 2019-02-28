@@ -8,8 +8,7 @@
 
   * [基本概念](js/基本概念)
   * [正则匹配](js/正则匹配.md)
-  * [BOM](js/
-    BOM.md)
+  * [BOM](js/BOM.md)
   * [DOM](js/DOM.md)
   * [DOM事件](js/DOM事件.md)
   * [原型、原型链](js/原型、原型链.md)
