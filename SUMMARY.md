@@ -41,6 +41,8 @@
   * [你觉得jQuery或Zepto源码有哪些写的好的地方](js/你觉得jQuery或Zepto源码有哪些写的好的地方.md)
   * [快速排序的思想并实现一个](js/快速排序的思想并实现一个.md)
   * [JavaScript的垃圾回收机制](js/JavaScript的垃圾回收机制)
+  * [用过哪些设计模式](js/用过哪些设计模式.md)
+  * [Flash、ajax各自的优缺点，在使用中如何取舍](js/Flash、ajax各自的优缺点，在使用中如何取舍.md)
 
 * [css](css/README.md)
 
@@ -51,15 +53,17 @@
   * [常见的兼容性问题](css/常见的兼容性问题.md)
   * [清除与浮动](css/清除与浮动.md)
   * [什么是FOUC(无样式内容闪烁)](css/什么是FOUC(无样式内容闪烁).md)
-  * [position的值，relative和absolute分别是相对于谁进行定位的？](css/position的值，relative和absolute分别是相对于谁进行定位的？.md)
+  * [position的值，relative和absolute分别是相对于谁进行定位的？](css/position的值，relative和absolute
+  * [移动端性能优化](css/移动端性能优化.md)
   * [css面试题](css/css面试题.md)
   * [css面试题2](css/css面试题2.md)
 
-* [html](ht/README.md)
+* [html](html/README.md)
 
   * [html5的新特性](html/html5的新特性.md)
   * [Doctype作用？严格模式和混杂模式如何区分？它们有何意义？](html/Doctype作用？严格模式和混杂模式如何区分？它们有何意义？.md)
   * [HTML和XHTML的区别](html/HTML和XHTML的区别.md)
+  * [htmlkk](html/html.md)
   * [html面试题](html/html面试.md)
   * [一个页面从输入URL到页面加载显示完成，这个过程中都发生了什么？](html/一个页面从输入URL到页面加载显示完成，这个过程中都发生了什么？.md)
   * [前端常见跨域解决方案](html/前端常见跨域解决方案.md)
@@ -86,6 +90,8 @@
   * [说说你觉得前端工程的价值体现在哪](html/说说你觉得前端工程的价值体现在哪.md)
   * [谈谈对前端界面工程师这个职位是怎么样的理解的？它的前景会怎么样](html/谈谈对前端界面工程师这个职位是怎么样的理解的？它的前景会怎么样.md)
   * [一些开放性题目](html/一些开放性题目.md)
+  * [渐进增强和优雅降级](html/渐进增强和优雅降级.md)
+  * [web worker和webSocket](html/web worker和webSocket.md)
 
 * [常用代码](code/README.md)
 
@@ -96,7 +102,7 @@
 
   * [面试地址](interview/面试地址.md)
   * [面试须知](interview/面试须知.md)
-  * [2017-6-26 公司面试题](interview/2017-6-26公司面试题.md)
+  * [2017-6-26 公司面试题](interview/2017-6-26 公司面试题.md)
   * [2016-360篇 公司面试题](interview/2016-360篇.md)
   * [2016-嘀嘀打车](interview/2016-嘀嘀打车.md)
   * [2016-网易互联网](interview/2016-网易互联网.md)
