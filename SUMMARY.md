@@ -4,6 +4,8 @@
 ## 基础
 * [前言](README.md)
 
+* [necessary](necessary/README.md)
+
 * [js](js/README.md)
 
   * [基本概念](js/基本概念)
@@ -53,7 +55,7 @@
   * [常见的兼容性问题](css/常见的兼容性问题.md)
   * [清除与浮动](css/清除与浮动.md)
   * [什么是FOUC(无样式内容闪烁)](css/什么是FOUC(无样式内容闪烁).md)
-  * [position的值，relative和absolute分别是相对于谁进行定位的？](css/position的值，relative和absolute分别是相对于谁进行定位的？)
+  * [position的值，relative和absolute分别是相对于谁进行定位的？](css/position的值，relative和absolute分别是相对于谁进行定位的？.md)
   * [移动端性能优化](css/移动端性能优化.md)
   * [css面试题](css/css面试题.md)
   * [css面试题2](css/css面试题2.md)
@@ -76,7 +78,6 @@
   * [前端安全](html/前端安全.md)
   * [哪些会造成内存泄漏](html/哪些会造成内存泄漏.md)
   * [说说网络分层里七层模型是哪七层](html/说说网络分层里七层模型是哪七层.md)
-  * [TCP传输的三次握手四次挥手策略](html/TCP传输的三次握手四次挥手策略.md)
   * [TCP和UDP的区别](html/TCP和UDP的区别.md)
   * [常用浏览器及浏览器内核](html/常用浏览器及浏览器内核.md)
   * [常见web安全及防护原理](html/常见web安全及防护原理.md)

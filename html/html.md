@@ -2,7 +2,32 @@
 > 1.<!DOCTYPE> 声明位于HTML文档中的第一行，处于标签之前。告知浏览器的解析器用什么文档标准解析这个文档。DOCTYPE不存在或格式不正确会导致文档以兼容模式呈现。
 > 2.标准模式的排版和JS运作模式都是以该浏览器支持的最高标准运行。在兼容模式中，页面以宽松的向后兼容的方式显示，模拟老式浏览器的行为以防止站点无法工作。
 
-- #### HTML5为什么只需要写<!DOCTYPE HTML>？
+
+
+#### 1.  怎么区分html和html5？html5有哪些新特性？兼容性怎么样？如何处理兼容
+(Q1)
+HTML5 现在已经不是 SGML 的子集，主要是关于图像，位置，存储，多任务等功能的增加。
+1. 绘画 canvas;
+2. 用于媒介回放的 video 和 audio 元素;
+3. 本地离线存储 localStorage 长期存储数据，浏览器关闭后数据不丢失;
+4. sessionStorage 的数据在浏览器关闭后自动删除;
+5. 语意化更好的内容元素，比如 article、footer、header、nav、section;
+6. 表单控件，calendar、date、time、email、url、search;
+7. 新的技术webworker, websocket, Geolocation;
+
+(Q2)
+1. IE8/IE7/IE6支持通过document.createElement方法产生的标签，
+2. 可以利用这一特性让这些浏览器支持HTML5新标签，
+3. 浏览器支持新标签后，还需要添加标签默认的样式。
+4. 当然也可以直接使用成熟的框架、比如html5shim，
+    <!--[if lt IE 9]>
+    <![endif]-->
+
+
+
+
+
+#### HTML5为什么只需要写<!DOCTYPE HTML>？
 
 > HTML5不基于SGML,因此不需要对DTD进行引用，但是需要doctype来规范浏览器的行为（让浏览器按照他们应该的方式来运行）；
 > 而HTML4基于SGML，所以需要对DTD进行引用，才能告知浏览器文档所使用的文档类型。

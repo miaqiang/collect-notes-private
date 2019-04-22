@@ -310,7 +310,8 @@
 
 #### 8 块级元素：伪元素
 
-```.parent {
+```
+.parent {
     width: 300px;
     height: 300px;
     border: 1px solid red;
@@ -333,7 +334,11 @@
 
 ```
 
+
+
 #### 9 块级元素：calc()
+
+
 
 ```
 .parent {
@@ -355,7 +360,11 @@
 
 ```
 
+
+
 #### 10 块级元素:inline-block
+
+
 
 html代码:
 ```
