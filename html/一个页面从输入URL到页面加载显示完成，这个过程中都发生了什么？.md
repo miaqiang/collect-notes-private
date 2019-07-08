@@ -7,6 +7,7 @@
 - [浏览器渲染原理及流程](https://www.cnblogs.com/slly/p/6640761.html)
 - [TCP三次握手及四次挥手详解及常见面试题](https://blog.csdn.net/ZWE7616175/article/details/80432486)
 - [http全过程](https://segmentfault.com/a/1190000007033157#articleHeader1)
+- [基础概念](https://www.jianshu.com/p/408425a489dd)
 
 
 

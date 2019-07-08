@@ -54,9 +54,7 @@
 
 - [html](html/README.md)
 
-  - [安全类](html/安全类.md)
-  - [通信类](html/通信类.md)
-  - [HTTP协议](html/HTTP协议.md)
+  - [HTTP协议](/html/HTTP协议.md)
   - [渲染机制](html/渲染机制.md) 
   - [HTML和XHTML的区别](html/HTML和XHTML的区别.md)
   - [htmlkk](html/html.md)
@@ -64,6 +62,7 @@
   - [前端常见跨域解决方案](html/前端常见跨域解决方案.md)
   - [XML和JSON的区别？](html/XML和JSON的区别？.md)
   - [Cookie、sessionStorage、localStorage的区别](html/Cookie、sessionStorage、localStorage的区别.md)
+  - [前端安全](html/前端安全.md)
   - [哪些会造成内存泄漏](html/哪些会造成内存泄漏.md)
   - [说说网络分层里七层模型是哪七层](html/说说网络分层里七层模型是哪七层.md)
   - [TCP和UDP的区别](html/TCP和UDP的区别.md)

@@ -3,7 +3,11 @@
 - [Flex 布局教程：语法篇](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
 - [Flex 布局教程：实例篇](http://www.ruanyifeng.com/blog/2015/07/flex-examples.html)
 - [Flex 布局语法教程-runoob](http://www.runoob.com/w3cnote/flex-grammar.html)
-- [demo](http://runjs.cn/code/w5v2ijmy)
+- [5分钟学会 CSS Grid 布局](<https://www.html.cn/archives/8506>)
+
+
+
+
 
 > 布局的传统解决方案，基于盒状模型，依赖display属性+position属性+float属性。它对于那些特殊布局非常不方便，比如，垂直居中就不容易实现。
 
@@ -65,9 +69,9 @@ flex-direction属性决定主轴的方向（即项目的排列方向）。
 
 ```
 1. row(默认值)：主轴为水平方向，起点在左端。
-2. row：主轴为水平方向，起点在右端。
+2. row-reverse：主轴为水平方向，起点在右端。
 3. column：主轴为垂直方向，起点在上沿。
-4. column：主轴为追至方向，起点在下沿。
+4. column-reverse：主轴为追至方向，起点在下沿。
 ```
 
 ### 3.2 flex-wrap属性
@@ -239,3 +243,10 @@ item{
 ```
 
 该属性可能取6个值，除了auto，其他都与align-items属性完全一致。
+
+## 五、总结
+
+### code
+
+- [flex code](https://jsbin.com/kayolas/edit?html,output)
+- [grid code](https://jsbin.com/bururut/1/edit?html,css,output)

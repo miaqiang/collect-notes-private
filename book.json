@@ -23,17 +23,26 @@
     "splitter",
     "tbfed-pagefooter",
     "anchors",
-    "anchor-navigation-ex",
     "edit-link",
     "-sharing",
     "sharing-plus",
     "favicon",
-    "expandable-chapters"
-
+    "expandable-chapters",
+    "splitter",
+    "anchor-navigation-ex"
 
 
   ],
   "pluginsConfig": {
+     "favicon": {
+            "shortcut": "assets/images/favicon.ico",
+            "bookmark": "assets/images/favicon.ico",
+            "appleTouch": "assets/images/favicon.icog",
+            "appleTouchMore": {
+                "120x120": "assets/images/favicon.ico",
+                "180x180": "assets/images/favicon.ico"
+            }
+        },
     "github": {
       "url": "https://github.com/QiangMin/collect-notes"
     },
@@ -85,11 +94,6 @@
         "weibo", "instapaper", "linkedin",
         "pocket", "stumbleupon"
       ]
-    },
-    "favicon":{
-      "shortcut":"favicon.ico",
-      "bookmark":"favicon.ico"
     }
-
   }
 }

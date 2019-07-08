@@ -2,11 +2,16 @@
 
 ##  一、问题
 
-    1.基本概念：DOM事件的级别
-    2.DOM事件模型（冒泡补货）
-    3.DOM事件流（页面中接受事件的顺序）
-    4.描述DOM事件捕获的具体流程
-    5.Event对象的常见应用
+1. 基本概念：DOM事件的级别
+2. DOM事件模型（冒泡补货）
+3. DOM事件流（页面中接受事件的顺序）
+4. 描述DOM事件捕获的具体流程
+5. Event对象的常见应用
+6. Dom操作方法
+7. 什么是事件代理
+8. attribute和property的区别是什么？
+9. document.write()的用法
+   
 
 ##  二、回答
 
@@ -60,11 +65,11 @@
 
     一个按钮绑定了两个click事件1和2，想通过优先级的方式，第一个响应函数是a。第二个响应函数是b，依次注册了a，b两个事件。想让执行a之后完不再执行b了；a响应函数中加上上面代码，就能成功阻止b执行。
 
-#### 4.event.currentTarget(currentTarget当前绑定事件的对象；指定的是父级元素)
+#### 4.event.currentTarget(currentTarget当前绑定事件的对象,指向添加监听事件的对象)
 
     把子元素的事件代理都转移到父元素中，只绑定一次事件就可以了。做响应的时候就要区分是哪个元素被触发。
 
-#### 5.event.target(target是当前被点击的元素)
+#### 5.event.target(target是当前被点击的元素,指向触发事件监听的对象。) 
 
 #### 6.自定义事件或者模拟事件（重要）
 
@@ -84,3 +89,68 @@
 	Event的不足只能指定事件名，如果想要给这个事件加些数据，Event是做不到的；用customEvent;
 	
 	customEvent自定义事件的是一个方法；除了可以指定事件名，后边还可以跟一个object来做指定参数。这个参数是自定义的，所以用法是一样的。
+
+### 6. Dom操作方法
+
+> 文档对象模型(document object model)是用来表示和操作HTML和XML文档内容的基础API。Document类型代表了一个HTML或XML文档，document对象则是用来保存整个web页面的dom结构，在页面上所有的元素最终都会映射为一个dom对象。对页面节点的操作也是通过document对象中的方法来实现的。
+
+- **document对象中常用的Dom操作方法有**
+
+  ```
+  getElementById();  
+  getElementsByClassName()        
+  querySlector();     
+  getAttribute()
+  ```
+
+  
+
+- 创建新节点
+
+  ```
+  createDocumentFragment()//创建一个DOM片段
+  createElement()//创建
+  createTextNode()//创建一个文本节点
+  
+  ```
+
+- 添加、移除、替换、插入
+
+  ```
+  appendChild()
+  removeChild()
+  replaceChild()
+  insertBefore()//并没有insertAfter
+  ```
+
+- 查找
+
+  ```
+  getElementsByTagName()//通过标签名称
+  getElementsByName()//通过元素的Name属性的值（IE容错能力较强，会得到一个数组，其中包括id等于name的值）
+  getElementById()//通过元素Id,唯一性
+  ```
+
+  
+
+### 7. 什么是事件代理
+
+> 事件代理（EVent Delegation）又称之为事件委托。是JavaScript中常用绑定事件的技巧。顾名思义，“事件代理”即是把原本需要绑定的事件委托给父元素。让父元素担当事件监听的职务。事件代理的原理是DOM元素的事件冒泡。使用事件代理的好处是可以提高性能。
+
+### 8. attribute和property的区别是什么？
+
+> property就是dom元素在js中作为对象拥有的属性。
+>
+> 所以
+>
+> 对于html的标准属性来说，attribute和property是同步的，是会自动更新的。
+>
+> 但是对于自定义的属性来说，他们是不同步的。
+
+
+
+### 9. document.write()的用法
+
+> document.write()方法可以用在两个方面：页面载入过程中用实时脚本创建页面内容，以及用延时脚本创建窗口或新窗口的内容。
+>
+> document.write只能重绘整个页面，innerHTMl可以只重绘页面的一部分。

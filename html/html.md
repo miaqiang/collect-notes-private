@@ -1,6 +1,39 @@
-* #### Doctype作用？标准模式与兼容模式各有什么区别？
-> 1.<!DOCTYPE> 声明位于HTML文档中的第一行，处于标签之前。告知浏览器的解析器用什么文档标准解析这个文档。DOCTYPE不存在或格式不正确会导致文档以兼容模式呈现。
-> 2.标准模式的排版和JS运作模式都是以该浏览器支持的最高标准运行。在兼容模式中，页面以宽松的向后兼容的方式显示，模拟老式浏览器的行为以防止站点无法工作。
+####  html5新特性
+
+- HTMl5现在已经不是SGML的子集，主要是关于图像，位置，存储，多任务等功能的增加。
+- 拖拽释放（Drag and  Drop）API
+- 语义化更好的内容标签（header，nav,footer,aside,article,section）
+- 音频、视频API（audio，video）
+- 画布（Canvas）API
+- 地理（GEOlocation）API
+- 本地离线存储localstorage长期存储数据，浏览器关闭后数据不丢失；sesseionStorage的数据在浏览器关闭后自动删除
+- 表单控件：calendar，data，time，email，URL，search
+- 新的技术webworker,websocket,Geoloation 
+
+> 移除的元素
+
+纯表现的元素：basefont,big,center,font,s,strike,tt,u;
+对可用性产生负面影响的元素：frame，frameset，noframe；
+
+> 支持HTML5新标签：
+
+  IE8/IE7/IE6支持通过document.createElement方法产生的标签，
+
+```
+可以利用这一特性让这些浏览器支持HTML5新标签，
+ 
+当然最好的方式是直接使用成熟的框架、使用最多的是html5shim框架
+ 
+   <!--[if lt IE 9]>
+ 
+   <script> src="http://html5shim.googlecode.com/svn/trunk/html5.js"</script>
+ 
+   <![endif]-->
+ 
+如何区分： DOCTYPE声明\新增的结构元素\功能元素可以利用这一特性让这些浏览器支持HTML5的新标签，
+```
+
+当然最好的方式是直接使用成熟的框架，使用最多的是html5shim框架
 
 
 
@@ -24,13 +57,6 @@ HTML5 现在已经不是 SGML 的子集，主要是关于图像，位置，存�
     <![endif]-->
 
 
-
-
-
-#### HTML5为什么只需要写<!DOCTYPE HTML>？
-
-> HTML5不基于SGML,因此不需要对DTD进行引用，但是需要doctype来规范浏览器的行为（让浏览器按照他们应该的方式来运行）；
-> 而HTML4基于SGML，所以需要对DTD进行引用，才能告知浏览器文档所使用的文档类型。
 
 - #### 行内元素有哪些？块级元素有哪些？空（void）元素有哪些？
 
