@@ -46,6 +46,8 @@ webkit内核的浏览器，必须加上-webkit前缀。
 
 ##  三、容器的属性
 
+![](..\assets\images\flex.png)
+
 以下6个属性设置在容器上。
 
 ```

@@ -84,7 +84,7 @@
     
     3. ev.dispatchEvent(eve);//最后触发就是用的这个dom节点，dispatchEvent这个api触发eve这个对象。
 
-## 总结：
+**总结：**
 
 	Event的不足只能指定事件名，如果想要给这个事件加些数据，Event是做不到的；用customEvent;
 	

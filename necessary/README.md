@@ -10,5 +10,5 @@
 - [算法类]() [算法类笔记](https://www.jianshu.com/p/a48afc1ddfc2)
 - [渲染机制-HTML](../html/渲染机制.md) 
 - [页面性能类](../js/JS页面性能类.md)
-- [错误监控]() [错误笔记](https://www.jianshu.com/p/ed3a0e42ad76)
+- [错误监控](../html/错误监控类.md) [错误笔记](https://www.jianshu.com/p/ed3a0e42ad76)
 
